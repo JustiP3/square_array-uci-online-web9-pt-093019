@@ -1,7 +1,7 @@
 require 'pry'
 def square_array(array)
-
-array.each {|num|num = num * num}
+new_array= []
+array.each {|num|new_array << num * num}
 #binding.pry
-
+new_array
 end
